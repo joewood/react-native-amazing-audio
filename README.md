@@ -3,7 +3,7 @@
 Simple React-Native wrapper over the AmazingAudio library. This library provides
 low level multi-channel, low-latency audio playback (similar to WebAudio).
 
-**Still in Development - ignore **
+**Still in Development - Ignore**
 
 ## Getting started
 
