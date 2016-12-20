@@ -1,7 +1,31 @@
-# React Native Amazing Audio
-This is a React Native module for [TheAmazingAudioEngine](http://theamazingaudioengine.com).
-## Features
-The currently implementation supports only basic polyphonic load, play, stop. 
-Support for filters and an attempt at WebAudio compatibility will be added in the near future.
+# react-native-react-native-amazing-audio
+
+Simple React-Native wrapper over the AmazingAudio library. This library provides
+low level multi-channel, low-latency audio playback (similar to WebAudio).
+
+**Still in Development**
+
+## Getting started
+
+`$ npm install react-native-amazing-audio --save`
+
+### Mostly automatic installation
+
+`$ react-native link react-native-amazing-audio`
+
+### Manual installation
+
+#### iOS
+
+1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
+2. Go to `node_modules` ➜ `react-native-react-native-amazing-audio` and add `RNReactNativeAmazingAudio.xcodeproj`
+3. In XCode, in the project navigator, select your project. Add `libRNReactNativeAmazingAudio.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
+4. Run your project (`Cmd+R`)<
 
 
+## Usage
+```javascript
+import ReactNativeAmazingAudio from 'react-native-react-native-amazing-audio';
+
+```
+  
